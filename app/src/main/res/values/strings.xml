@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Akosile - JournalApp</string>
+    <string name="add_journal">Add Journal</string>
+    <string name="journal_entry">Journal Entry</string>
+    <string name="journal_title">Journal Title</string>
+    <string name="btn_update_journal">Update Journal</string>
+    <string name="sign_out">Sign out</string>
+    <string name="colourThree">V. Yellow</string>
+    <string name="colourTwo">L. Purple</string>
+    <string name="colourOne">L. Blue</string>
+    <string name="select_the_mood">Select the mood</string>
+    <string name="hi_pease_signin_to_start_journaling">Welcome to Akosile. Signin to begin.</string>
+</resources>

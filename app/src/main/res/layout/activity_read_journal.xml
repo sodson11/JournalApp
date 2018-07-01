@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingStart="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/journal_entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:gravity="start"
+        android:hint="@string/journal_title"
+        android:textSize="24sp"
+        android:paddingBottom="16dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/journal_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        app:srcCompat="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/colorPrimary"
+        android:tint="@android:color/white"/>
+
+</FrameLayout>

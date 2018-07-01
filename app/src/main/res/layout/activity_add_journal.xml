@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingStart="16dp"
+    android:paddingTop="16dp">
+
+    <EditText
+        android:id="@+id/edit_journal_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:gravity="start"
+        android:hint="@string/journal_title"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edit_journal_entry"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:gravity="center|start|top"
+        android:hint="@string/journal_entry"
+        android:inputType="textMultiLine"
+        android:minLines="6"
+        android:padding="6.0dp"
+        android:scrollbars="vertical"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:textColor="@android:color/primary_text_light"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:text="@string/select_the_mood"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:weightSum="3">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="@android:color/primary_text_light"
+                android:id="@+id/mood_btn_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colourOne"
+                android:text="@string/colourOne"
+                android:layout_weight="1"/>
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="@android:color/primary_text_light"
+                android:id="@+id/mood_btn_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colourTwo"
+                android:text="@string/colourTwo"
+                android:layout_weight="1"/>
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="@android:color/primary_text_light"
+                android:id="@+id/mood_btn_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colourThree"
+                android:text="@string/colourThree"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <!-- RadioGroup for visible selection of a priority -->
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:weightSum="3">
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:theme="@style/WhiteRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:theme="@style/WhiteRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:theme="@style/WhiteRadioButton"/>
+
+        </RadioGroup>
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/save_button"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="@string/add_journal"
+        android:textColor="@android:color/primary_text_dark" />
+
+</LinearLayout>

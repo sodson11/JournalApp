@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "901032952880",
+    "firebase_url": "https://akosile-my-journal-app.firebaseio.com",
+    "project_id": "akosile-my-journal-app",
+    "storage_bucket": "akosile-my-journal-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901032952880:android:c425b3edda49e9c0",
+        "android_client_info": {
+          "package_name": "com.adresocial.akosilemyjournalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901032952880-36i6t8h3bbgg4k24c1fvlb4gllmqp8us.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adresocial.akosilemyjournalapp",
+            "certificate_hash": "8c343860c3839185ab11073bc6fdd7df52740229"
+          }
+        },
+        {
+          "client_id": "901032952880-i0iouhp3g27cug3blqqsqumrkrubkouk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFRb-LqVvlmFErALT0uQ5xgXcJIOJw9Js"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901032952880-caftnak8n2crsihdq69srqoa777c7tgg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
